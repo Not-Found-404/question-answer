@@ -1,0 +1,19 @@
+{
+  "name": "question-answer",
+  "version": "1.0.0",
+  "description": "NF4 园丁助手 - 答题界面",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Billows Tao",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
