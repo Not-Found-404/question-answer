@@ -123,7 +123,7 @@ function submitData () {
     url: 'answer/saveAnswer',
     type: 'POST',
     data: {
-      answerId: $('.question-block:first > .option-item[itemChecked="true"]').attr('optionId'),
+      answerId: $('.question-block:first .option-item[itemChecked="true"]').attr('optionId'),
       publishId: publishId,
       ipAddress: ipAddress,
       respondentInfo: testeeName
