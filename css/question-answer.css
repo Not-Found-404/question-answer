@@ -35,9 +35,12 @@ body{
     margin-right:auto;
     max-width: 45em;   
 }
+.question-flow > .question-block:not(:first-of-type){
+    margin-top:0.5em;
+}
 .question-title{
     /* 问题标题 */
-    font-weight: 500;
+    font-weight: 600;
     font-size:1.25em;
 }
 .question-split{
@@ -46,7 +49,7 @@ body{
 }
 .option-item{
     /* 选项-条目 */
-    height:2em;
+    height:auto;
     display:flex;
     flex-direction: row;
     align-items: center;
